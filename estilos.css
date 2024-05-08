@@ -1,0 +1,82 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Fundo escuro */
+    color: beige; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #222; /* Cor de fundo mais escura */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra mais forte */
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #666; /* Cor da borda mais clara */
+    width: calc(33.33% - 10px);
+    background-color: #444; /* Cor de fundo mais escura */
+    color: beige; /* Cor do texto */
+}
+
+/* Botão */
+button[type="submit"] {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db; /* Azul */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9; /* Azul mais escuro no hover */
+}
+
+/* Lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #555; /* Cor de fundo mais escura */
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); /* Sombra mais forte */
+}
+
+/* Parágrafo Adicional */
+p {
+    text-align: center;
+    margin: 20px 0;
+}
